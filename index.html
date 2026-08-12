@@ -1,0 +1,340 @@
+accessibility. You can choose to enable a more compact line height from the view settings menu.
+
+‎task4/css/style.css‎
++236
+Lines changed: 236 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #0d3b61;
+}
+a:hover{
+    color: blue;
+}
+body{
+    height: 950px;
+    background-image: url(../images/travel2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    width: 1050px;
+    height: 50px;
+    position: fixed;
+    top: 3%;
+    left: 11%;
+    background-color: #ecf3f8;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.header img{
+    width: 200px;
+    margin-top: -74px;
+    float: left;
+    cursor: pointer;
+}
+.list{
+    list-style: none;
+    float: right;
+    padding-right: 30px;
+    padding-top: 13px;
+    font-style: oblique;
+}
+.list li{
+    font-size: larger;
+    font-weight: 800;
+    display: inline-block;
+    margin-left: 15px;
+}
+.div1{
+    width: 330px;
+    height: 495px;
+    background-color: #d8e1e7;
+    margin-top: 100px;
+    margin-left: 148px;
+    border-radius: 10px;
+    float: left;
+}
+.div2{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(../images/destination.jpg);
+    background-size: 100% 100%;
+    margin: auto; 
+    margin-top: 10px; 
+}
+.h3{
+    padding-left: 45px;
+    font-weight: 900;
+    color: #0d3b61;
+    font-style: oblique;
+}
+.h3::selection{
+    background-color: #e2d394;
+}
+.p1{
+    color: #145d99;
+    padding-left: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+}
+.p1::selection{
+    background-color: #e2d394;
+}
+mark{
+    background-color: #259bfc;
+    color:  #124e80;;
+}
+.btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1px 75px;
+    background-color: #124e80;
+    color: white;
+}
+.btn1:hover{
+    background-color: #b98d36;
+}
+.p2{
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: bold;
+}
+.div3{
+    width: 330px;
+    height: 495px;
+    background-color: #d8e1e7;
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: 10px;
+    float: left;
+}
+.div4{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(../images/tour\ packages.jpg);
+    background-size: 100% 100%;
+    margin: auto; 
+    margin-top: 10px;
+}
+.h4{
+    padding-left: 100px;
+    font-weight: 900;
+    color: #0d3b61;
+    font-style: oblique;
+}
+.h4::selection{
+    background-color: #e2d394;
+}
+.p3{
+    padding-left: 10px;
+    color: #145d99;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+}
+.p3::selection{
+    background-color: #e2d394;
+}
+.btn2{
+    width: 150px;
+    height: 40px;
+    margin: -39px 85px ;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #124e80;
+    color: white;
+}
+.btn2:hover{
+    background-color: #b98d36;
+}
+.p4{
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: bold;
+}
+.div5{
+    width: 330px;
+    height: 495px;
+    background-color: #d8e1e7;
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: 10px;
+    float: left;
+}
+.div6{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(../images/hotel\ booking.jpg);
+    background-size: 100% 100%;
+    margin: auto; 
+    margin-top: 10px;
+}
+.h5{
+    padding-left: 100px;
+    font-weight: 900;
+    color: #0d3b61;
+    font-style: oblique;
+}
+.h5::selection{
+    background-color: #e2d394;
+}
+.p5{
+    padding-left: 10px;
+    color: #145d99;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-decoration: overline;
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+}
+.p5::selection{
+    background-color: #e2d394;
+}
+.btn3{
+    width: 150px;
+    height: 40px;
+    margin: -39px 85px ;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #124e80;
+    color: white;
+}
+.btn3:hover{
+    background-color: #b98d36;
+}
+.p6{
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: bold;
+}
+‎task4/images/destination.jpg‎
+379 KB
+
+
+
+‎task4/images/go travil.png‎
+31.3 KB
+
+
+
+‎task4/images/hotel booking.jpg‎
+178 KB
+
+
+
+‎task4/images/tour packages.jpg‎
+185 KB
+
+
+
+‎task4/images/travel2.jpg‎
+23 KB
+
+
+
+‎task4/index.html‎
++91
+Lines changed: 91 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,91 @@
+<html>
+    <head>
+        <meta  charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>GO TRAVEL</title>
+    </head>
+    <body>
+        <div class="header">
+            <img src="images/go travil.png" alt="Logo">
+            <ul class="list">
+                <li><a href="Home">Home</a></li>
+                <li><a href="About us">About us</a></li>
+                <li><a href="Login">Login</a></li>
+                <li><a href="Destinations">Destinations</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="div1">
+            <div class="div2"></div>
+            <br>
+            
+            <h2 class="h3">Popular Destinations</h2>
+            <br> 
+            <p class="p1">Is a well-known place that attracts a large number of tourists due to itsfamous landmarks, rich culture
+               
+                <br>
+              <mark> Paris, France:</mark> Famous for the Eiffel Tower,
+             
+              <br> 
+                
+             <mark>Cairo, Egypt:</mark> Home to the iconic Pyramids of Giza.
+             
+             <br>
+             <br> 
+             <button class="btn1"><span class="p2">Explore Places</span></button>
+            </p>
+        </div>
+        <div class="div3">
+            <div class="div4"></div>
+           
+            <br>
+            
+            <h2 class="h4">Tour Packges</h2>
+            <br> 
+            
+            <p class="p3">bundle sold by agencies that combines several services inclusive price.
+             Beach Holiday: Includes round-trip <u> flights, hotel accommodation, meals, and airport transfers for a seamless vacation</u></p>
+            
+             <br>
+             <br>
+             <br>
+             <button class="btn2"><span class="p4">View Packges</span></button>
+            
+        </div>
+           <div class="div5">
+            <div class="div6"></div>
+            <br>
+            <h2 class="h5">Hotel Booking</h2>
+            <br>
+            <p class="p5">Booking hotels through us allows you to search for available rooms and compare prices. You can also view guest reviews for each hotel along with the amenities it offers, paying securely online.</p>
+            <br>
+            <br>
+            <br>
+            <button class="btn3"><span class="p6">Book Now</span></button>
+        </div>
+        
+    </body>
+</html>
